@@ -65,9 +65,8 @@ function createAnimal(location, noOfLegs) {
 
 /****** Create Dog *******/
 function createDog(location, noOfLegs, name, color) {
-    let dog = Object.create(dogMethods);
-    dog.location = location;
-    dog.noOfLegs = noOfLegs;
+    let dog = createAnimal(location, noOfLegs);
+    Object.setPrototypeOf(dog, dogMethods);
     dog.name = name;
     dog.color = color;
     return dog;
@@ -75,7 +74,8 @@ function createDog(location, noOfLegs, name, color) {
 
 /****** Create Cat *******/
 function createCat(location, noOfLegs, name, colorOfEyes) {
-    let cat = Object.create(catMethods);
+    let cat = createAnimal(location, noOfLegs);
+    Object.setPrototypeOf(cat, catMethods);
     cat.location = location;
     cat.noOfLegs = noOfLegs;
     cat.name = name;
