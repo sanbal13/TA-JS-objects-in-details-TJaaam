@@ -1,4 +1,4 @@
-## An object-oriented book-list!
+        ## An object-oriented book-list!
 
 - [ ] Create a class BookList
 - [ ] Create another class called Book
@@ -21,7 +21,7 @@ Book class will have the following methods:
 2. Current read book index
 
 #### BookList Methods
-
+            
 - [] `add([Book])` will accept an array (list of books). Once the method is called the book will added to the list.
 - [] `getCurrentBook()` should return the current book using the `index` and the book array
 - [] `getNextBook()` should return the next book using the `index` and the book array
