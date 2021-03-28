@@ -1,0 +1,89 @@
+/************************* General **********************/
+html {
+    font-size: 16px;
+}
+body {
+    font-family: $font-family;
+    line-height: 1.5;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+/****** Flex ******/
+.flex {
+    display: flex;
+}
+.flex-10 {
+    flex: 0 1 10%
+}
+.flex-25 {
+    flex: 0 1 25%
+}
+.flex-40 {
+    flex: 0 1 40%
+}
+/****** Headings ******/
+h1, h2, h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+/* ****** Header *******/
+header {
+    text-align: center;
+    background-color: rebeccapurple;
+    i, span {
+        color: $primary;
+    }
+}
+/******* Form *******/
+label, input, button, .list {
+    display: block;
+    width: 100%;
+}
+input, button {
+    padding: 1rem;
+}
+button {
+    margin-top: 1.5rem;
+    background-color: $primary;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+label {    
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.list {
+    margin-top: 1rem;
+}
+.head-li {
+    border-top: 1px solid rgba(grey, 0.5);
+    border-bottom: 1px solid rgba(grey, 0.5);
+}
+.item-li {
+    background-color: rgba(grey, 0.2);
+    margin: 0.5rem 0;
+    padding: 1rem;
+
+    .isbn, .author {
+        padding-left: 1rem;
+    }
+}
+
