@@ -80,5 +80,10 @@ label {
 .item-li {
     background-color: rgba(grey, 0.2);
     margin: 0.5rem 0;
+    padding: 1rem;
+
+    .isbn, .author {
+        padding-left: 1rem;
+    }
 }
 
