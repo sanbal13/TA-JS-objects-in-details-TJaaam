@@ -1,0 +1,56 @@
+/************************* General **********************************/
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(#6EE7B7, #F9A8D4);
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+/******************** Headings ***********************/
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+/******************** UI *********************/
+.title {
+ background-color: #D1FAE5;
+ border: 5px solid #F9A8D4;
+}
+.option {
+ background-color: #FCE7F3;   
+ border: 5px solid #6EE7B7;
+ 
+}
+.title, .option {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+/********************* Grid *******************/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
