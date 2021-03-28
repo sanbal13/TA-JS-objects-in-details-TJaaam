@@ -162,5 +162,10 @@ label {
 .item-li {
   background-color: rgba(128, 128, 128, 0.2);
   margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+.item-li .isbn, .item-li .author {
+  padding-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
